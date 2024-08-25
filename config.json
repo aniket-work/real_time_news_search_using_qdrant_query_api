@@ -1,0 +1,25 @@
+{
+  "news_api": {
+    "api_key_env_var": "NEWS_API",
+    "query": "bitcoin",
+    "sources": "bbc-news,the-verge",
+    "domains": "bbc.co.uk,techcrunch.com"
+  },
+  "qdrant": {
+    "url": "http://localhost:6333",
+    "collection_name": "news_articles",
+    "timeout": 600
+  },
+  "embedding_models": {
+    "dense": "sentence-transformers/all-MiniLM-L6-v2",
+    "bm25": "Qdrant/bm25",
+    "late_interaction": "colbert-ir/colbertv2.0"
+  },
+  "indexing": {
+    "batch_size": 4
+  },
+  "search": {
+    "default_limit": 5,
+    "score_threshold": 0.0
+  }
+}

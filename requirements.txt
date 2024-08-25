@@ -1,0 +1,5 @@
+qdrant-client
+streamlit
+fastembed
+python-dotenv
+newsapi-python
