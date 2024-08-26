@@ -66,6 +66,7 @@ By reading this article, you'll gain insights into the practical implementation 
    ```bash 
    # generate synthetic cases of our Law Firm
    python app.py
+   streamlit run app.py
     ```
    
 
