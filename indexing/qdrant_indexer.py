@@ -1,5 +1,5 @@
 from qdrant_client import QdrantClient, models
-import tqdm
+import uuid
 
 def init_qdrant_client(config):
     return QdrantClient(
@@ -69,7 +69,7 @@ def index_articles(client, articles, embedding_models, config):
             config['qdrant']['collection_name'],
             points=[
                 models.PointStruct(
-                    id=i + j,
+                    id=uuid.uuid4(),
                     vector={
                         "all-MiniLM-L6-v2": dense_embeddings[j].tolist(),
                         "bm25": bm25_embeddings[j].as_object(),

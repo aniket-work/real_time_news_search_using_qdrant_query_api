@@ -1,8 +1,5 @@
-# real_time_news_search_using_qdrant_query_api
-Real-Time News Search Using Qdrant Query API
 
-# real_time_news_search_using_qdrant_query_api
-Agentic RAG (Agent-based Retrieval-Augmented Generation) is an advanced framework for question answering that enhances traditional methods by incorporating intelligent agents. These agents are designed to tackle complex questions through intricate planning, multi-step reasoning.
+# Real-Time News Search Using Qdrant Query API
 
 ## Introduction
 

@@ -67,7 +67,7 @@ from datetime import datetime
 
 
 def streamlit_app():
-    st.title("News Search Engine")
+    st.title("Real-Time News Search Using Qdrant Query API")
 
     # Initialize the main components
     if 'qdrant_client' not in st.session_state:
