@@ -3,7 +3,7 @@
 
 ## Real-Time News Search: Why It Matters
 
-Full Article : [https://medium.com/@learn-simplified/how-i-built-refund-processing-system-using-ai-agents-from-scratch-7702a998a0c7
+[Full Article](https://medium.com/@learn-simplified/real-time-news-search-using-qdrant-query-api-9f5a2cc9f8bb)
 
 Staying updated with real-time news is crucial in today's fast-paced world. Whether it's in finance, politics, or crisis management, having access to the latest information can significantly impact decision-making and strategic planning.
 
